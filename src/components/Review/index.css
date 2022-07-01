@@ -1,0 +1,85 @@
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.review-three-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.review-single-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  text-align: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 30px;
+  text-align: start;
+}
+
+.review-profile-img {
+  height: 60px;
+  width: 60px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.highlight-container {
+  border-left: 2px solid #baa2dd;
+  border-right: 2px solid #baa2dd;
+  border-bottom: 2px solid #6f2fcc;
+  border-top: 0.5px solid #baa2dd;
+  box-shadow: 0px 0px 0px 0px #bfbfbf;
+}
+
+.name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.role {
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.upper-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.review-desc {
+  font-size: 15px;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 500;
+}
+
+.review {
+  font-size: 40px;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}

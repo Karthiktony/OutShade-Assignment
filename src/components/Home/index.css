@@ -1,0 +1,56 @@
+.bg-container {
+  background-color: #581dad;
+  height: 120vh;
+  background-size: cover;
+  padding-left: 150px;
+  padding-right: 50px;
+}
+
+.home-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.div-width {
+  width: 40%;
+}
+
+.login-img {
+  width: 50%;
+  flex-shrink: 1;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.live-demo-btn {
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+  background-color: #0967d2;
+  font-family: 'Roboto';
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
+
+.codext-heading {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.codext-description {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding-bottom: 10px;
+}
